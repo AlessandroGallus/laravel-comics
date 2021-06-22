@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  color: #fff;
+}
+
+.main {
+  text-transform: uppercase;
+  width: 100%;
+  padding-bottom: 30px;
+  background-color: #1C1C1C;
+}
+.main .wrapper-70 {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.main .wrapper-70 .current_series {
+  display: inline-block;
+  text-align: center;
+  height: 50px;
+  width: 220px;
+  line-height: 50px;
+  background-color: #0282F9;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  transform: translate(0, -50%);
+}
+.main .wrapper-70 .card_container {
+  width: 15%;
+  margin-top: 60px;
+}
+.main .wrapper-70 .card_container .card .img {
+  height: 800px;
+}
+.main .load-more-row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .load-more-row .load-more {
+  display: inline-block;
+  text-align: center;
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  margin: auto;
+  background-color: #0282F9;
+}
+.main a {
+  color: white;
+  text-decoration: none;
+}
+
+.advertisement {
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  background-color: #0282F9;
+}
+.advertisement .wrapper-70 {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.advertisement .wrapper-70 a {
+  color: white;
+  text-decoration: none;
+}
+.advertisement .wrapper-70 a .product {
+  display: flex;
+  vertical-align: middle;
+}
+.advertisement .wrapper-70 a .product img {
+  height: 50px;
+}
+.advertisement .wrapper-70 a .product p {
+  display: inline-block;
+  text-transform: uppercase;
+  line-height: 50px;
+  margin-left: 10px;
+}
+
+.footer {
+  width: 100%;
+  background-image: url("/img/footer-bg.jpg");
+  background-size: cover;
+}
+.footer .wrapper-70 {
+  display: flex;
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+}
+.footer .wrapper-70 .container-40 {
+  padding: 40px 0;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .wrapper-70 .container-40 .container-20 {
+  width: 20%;
+  text-align: left;
+}
+.footer .wrapper-70 .container-40 .container-20 h4 {
+  margin: 20px 0;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+.footer .wrapper-70 .container-40 .container-20 ul {
+  list-style: none;
+}
+.footer .wrapper-70 .container-40 .container-20 ul li {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  color: #707B83;
+}
+.footer .wrapper-70 .container-60 {
+  background-image: url("/img/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-size: unset;
+  background-position: center;
+  width: 60%;
+}
+
+.socials {
+  color: white;
+  width: 100%;
+  height: 90px;
+  background-color: #303030;
+  display: flex;
+}
+.socials .container-50 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.socials .container-50 a {
+  color: white;
+  text-decoration: none;
+}
+.socials .container-50 .signup {
+  text-transform: uppercase;
+  padding: 15px;
+  border: 2px solid #0282F9;
+}
+.socials .container-50 .container-40 {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.socials .container-50 .container-40 p {
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #0282F9;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  text-align: center;
+  margin-bottom: 1rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ul {
+  margin: 2rem 0;
+}
+ul li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+ul a {
+  text-decoration: none;
+  margin: 1rem;
+  padding: 2rem 0;
+  color: #51565B;
+}
+ul a:hover, ul a.active {
+  color: #4AABFC;
+  border-bottom: 4px solid #4AABFC;
+}
+
+.jumbotron {
+  height: 400px;
+  width: 100%;
+  background-image: url("/img/jumbotron.jpg");
+}

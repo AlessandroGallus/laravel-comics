@@ -1,0 +1,81 @@
+.footer{
+  width: 100%; 
+  background-image: url("/img/footer-bg.jpg");
+  background-size:cover;
+  .wrapper-70{
+     display: flex;
+     width: 70%;
+     height:100%;
+     margin:0 auto;
+     .container-40{
+       padding:40px 0;
+       width:40%;
+       height: 100%;
+       display:flex;
+       justify-content: space-between;
+       .container-20{
+         width:20%;
+         text-align: left;
+         h4{
+           margin:20px 0;
+           color:white;
+           text-transform: uppercase;
+           font-weight: bold;
+           font-size:18px;
+         }
+         ul{
+           list-style: none;
+           li{
+             color:white;
+             text-decoration: none;
+             font-size:14px;
+             color:#707B83;
+           }
+         }
+
+       }
+     }
+     .container-60{
+         background-image: url("/img/dc-logo-bg.png");
+         background-repeat: no-repeat;
+         background-size:unset;
+         background-position: center;
+         width:60%;
+       }
+   }
+ }
+ .socials{
+   color:white;
+   width:100%;
+   height:90px;
+   background-color:#303030;
+   display:flex;
+   .container-50{
+     width:50%;
+     height: 100%;
+     display:flex;
+     justify-content: space-around;
+     align-items: center;
+     a{
+       color:white;
+       text-decoration: none;
+     }
+     .signup{
+       text-transform: uppercase;
+       padding: 15px;
+       border:2px solid #0282F9;
+     }
+     .container-40{
+       width:40%;
+       margin:0 auto;
+       display:flex;
+       justify-content: space-between;
+       p{
+         line-height: 40px;
+         text-transform: uppercase;
+         color: #0282F9;
+         font-weight: bold;
+       }
+     }
+   }
+ }
